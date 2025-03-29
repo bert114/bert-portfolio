@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "json-server --watch src/projects.json --port 8000",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -b gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
