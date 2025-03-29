@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route index path="/" element={<Main />} />
+        <Route index element={<Main />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </Router>
